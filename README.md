@@ -1,1 +1,2 @@
 # template-MoGo
+[MoGo Template]()
