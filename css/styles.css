@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat|Roboto');
+
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Kaushan Script', cursive;*/
+
+.header-wrapper {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    background-image: linear-gradient(to bottom, rgba(234, 131, 132, 0.9) 0%, rgba(241, 217, 139, 0.9) 100%), url(../img/banner-eagle.png);
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.row,
+ul {
+    margin: 0 auto;
+    padding: 0;
+}
+
+header {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.logo {
+    padding-top: 30px;
+    text-align: left;
+}
+
+.logo a {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 1.875em;
+    font-weight: 700;
+    padding-bottom: 12px;
+    border-bottom: 3px solid transparent;
+    text-decoration: none;
+}
+
+.hamburger {
+    display: none;
+    position: fixed;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 55px;
+    height: 55px;
+    padding-top: 6px;
+    padding-left: 6px;
+    font-size: 2.5em;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    background-color: rgba(234, 131, 132, 0.7);
+    border-radius: 50%;
+    box-shadow: 0 0 8px 10px rgba(241, 217, 139, 0.9);
+}
+
+.menu-bar {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.menu-bar li {
+    padding-top: 40px;
+    padding-left: 7%;
+    display: inline-block;
+    text-align: right;
+}
+
+.menu-bar a {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 1em;
+    font-weight: 400;
+    padding-bottom: 12px;
+    border-bottom: 3px solid transparent;
+    text-decoration: none;
+}
+
+.glyphicon-search {
+    color: #ffffff;
+    padding-bottom: 12px;
+    border-bottom: 3px solid transparent;
+}
+
+.menu-bar a:hover,
+.glyphicon-search:hover {
+    color: #fce48b;
+    border-bottom: 3px solid #fce48b;
+}
+
+.input-search {
+    width: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.button-serch {
+    border: 0;
+    background-color: transparent;
+}
+
+
+.logo a:hover {
+    color: #fce48b;
+}
+
+.title {
+    font-family: 'Kaushan Script', cursive;
+    color: #ffffff;
+    font-size: 4.5em;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 12%;
+}
+
+.welcome {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 9.5em;
+    font-weight: 900;
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 2%;
+}
+
+.divide {
+    max-width: 60px;
+    margin: 0 auto;
+    height: 3px;
+    border-bottom: 3px solid #ffffff;
+    padding-top: 7%;
+}
+
+.learn-more {
+    font-family: Montserrat;
+    color: #ffffff;
+    font-size: 1em;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    border: 3px solid #ffffff;
+    box-sizing: border-box;
+    width: 160px;
+    height: 40px;
+    margin: 0 auto;
+    padding-top: 7px;
+    margin-top: 6%;
+}
+
+.slider {
+    font-family: Montserrat;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: 11%;
+}
+
+.slider-bar {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.slider-item {
+    margin-left: 15px;
+    margin-right: 15px;
+    border-top: 3px solid #ffffff;
+    padding: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.slider span:first-child {
+    font-size: 1.5em;
+    font-weight: 900;
+}
+
+.slider span:last-child {
+    font-size: 1em;
+    font-weight: 900;
+}
+
+.about-us-title {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 1.5em;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.about-us-welcome {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.875em;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 2%;
+}
+
+.about-us-divide {
+    max-width: 60px;
+    margin: 0 auto;
+    height: 3px;
+    border-bottom: 3px solid rgb(234, 131, 132);
+    margin-top: 3%;
+}
+
+.about-us-description {
+    max-width: 950px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 3%;
+    text-align: center;
+    text-transform: none;
+}
+
+.about-us-description span {
+    font-family: 'Roboto', sans-serif;
+    color: #999999;
+    font-size: 1em;
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+.about-us-gallery {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.about-us-gallery img {
+    max-width: 100%;
+    width: 30%;
+    height: 100%;
+    display: inline-block;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .logo {
+        left: 12%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .logo {
+        left: 1.5%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .logo {
+        left: 1.5%;
+    }
+    .welcome {
+        font-size: 6em;
+    }
+    .title {
+        font-size: 4.5em;
+    }
+    
+    .menu-bar {
+        display: none;
+    }
+    
+    .hamburger {
+        display: block;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        left: 1.5%;
+    }
+    .welcome {
+        font-size: 3.5em;
+    }
+    .title {
+        font-size: 2.5em;
+    }
+    .slider span:first-child {
+        font-size: 1em;
+        font-weight: 900;
+    }
+    .slider span:last-child {
+        font-size: 0.6em;
+        font-weight: 900;
+    }
+    .menu-bar {
+        display: none;
+    }
+    
+    .hamburger {
+        display: block;
+    }
+    
+    .hamburger:hover .menu-bar {
+        display: block;
+    }
+}
