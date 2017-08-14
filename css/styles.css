@@ -67,7 +67,7 @@ header {
 
 .menu-bar li {
     padding-top: 40px;
-    padding-left: 7%;
+    padding-left: 6%;
     display: inline-block;
     text-align: right;
 }
@@ -105,7 +105,6 @@ header {
     border: 0;
     background-color: transparent;
 }
-
 
 .logo a:hover {
     color: #fce48b;
@@ -269,13 +268,35 @@ header {
     .title {
         font-size: 4.5em;
     }
-    
-    .menu-bar {
-        display: none;
-    }
-    
     .hamburger {
         display: block;
+    }
+    .menu-bar {
+        display: none;
+        position: fixed;
+        top: 18%;
+        padding: 0;
+        margin: 0 auto;
+        z-index: 1;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        background: linear-gradient(to bottom, rgba(234, 131, 132, 1) 0%, rgba(241, 217, 139, 1) 100%);
+        border-radius: 25px;
+        width: 95%;
+    }
+    .menu-bar li {
+        width: 100%;
+        border-bottom: 1px solid #ffffff;
+        padding: 5px;
+        text-align: center;
+    }
+    li:last-child {
+        border: 0;
+    }
+    li a {
+        font-size: 1.5em;
+        font-weight: 600;
+        line-height: 1.7;
     }
 }
 
@@ -297,15 +318,34 @@ header {
         font-size: 0.6em;
         font-weight: 900;
     }
-    .menu-bar {
-        display: none;
-    }
-    
     .hamburger {
         display: block;
     }
-    
-    .hamburger:hover .menu-bar {
-        display: block;
+    .menu-bar {
+        display: none;
+        position: fixed;
+        top: 18%;
+        padding: 0;
+        margin: 0;
+        z-index: 1;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        background: linear-gradient(to bottom, rgba(234, 131, 132, 1) 0%, rgba(241, 217, 139, 1) 100%);
+        border-radius: 25px;
+        width: 90%;
+    }
+    .menu-bar li {
+        width: 100%;
+        border-bottom: 1px solid #ffffff;
+        padding: 5px;
+        text-align: center;
+    }
+    li:last-child {
+        border: 0;
+    }
+    li a {
+        font-size: 1.5em;
+        font-weight: 600;
+        line-height: 1.7;
     }
 }
