@@ -67,7 +67,7 @@ header {
 
 .menu-bar li {
     padding-top: 40px;
-    padding-left: 6%;
+    padding-left: 5.5%;
     display: inline-block;
     text-align: right;
 }
@@ -104,6 +104,27 @@ header {
 .button-serch {
     border: 0;
     background-color: transparent;
+}
+
+.input-search {
+    border: none;
+    border-radius: 5px;
+    width: 0;
+    padding: 0;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+}
+
+.menu-bar-form:hover .input-search {
+    width: 80px;
+    padding: 3px 5px;
+}
+
+.input-search:focus {
+    width: 80px;
+    padding: 3px 5px;
+    outline: none;
 }
 
 .logo a:hover {
@@ -237,6 +258,7 @@ header {
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
+    padding-top: 5%;
 }
 
 .about-us-gallery img {
@@ -244,6 +266,89 @@ header {
     width: 30%;
     height: 100%;
     display: inline-block;
+}
+
+.about-us-perfomance-wrapper {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 5%;
+    background-color: #95e1d3;
+    background-repeat: no-repeat;
+}
+
+.about-us-perfomance {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.about-us-perfomance-item {
+    border-right: 1px solid #b5eae0;
+    text-align: center;
+    padding: 2% 3%;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+}
+
+.about-us-perfomance-item span:first-child {
+    font-size: 4em;
+    font-weight: 800;
+}
+
+.about-us-perfomance-item span:last-child {
+    font-size: 0.8em;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.about-us-perfomance-item:last-child {
+    border-right: 0;
+}
+
+.services {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.services>div {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+.services-item {
+    position: relative;
+    padding: 12% 3%;
+}
+
+.services-item:first-child {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.services-item img {
+    position: absolute;
+}
+
+.services-item span {
+    display: inline-block;
+    margin-left: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    color: #999999;
+}
+
+.services-item p {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-left: 45px;
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -347,5 +452,9 @@ header {
         font-size: 1.5em;
         font-weight: 600;
         line-height: 1.7;
+    }
+    .menu-bar a:hover,
+    .glyphicon-search:hover {
+        border: 0;
     }
 }
