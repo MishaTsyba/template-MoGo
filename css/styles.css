@@ -800,19 +800,6 @@ font-family: 'Kaushan Script', cursive;*/
     width: 100%;
 }
 
-::-webkit-scrollbar {
-    background: #CCF6ED;
-    border-radius: 4px;
-    height: 8px;
-    width: 8px;
-}
-
-::-webkit-scrollbar-thumb {
-    background: #21BB9A;
-    border-radius: 4px;
-}
-
-
 /*QUOTES*/
 
 .quotes {
