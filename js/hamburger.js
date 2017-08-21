@@ -1,3 +1,3 @@
 $('.hamburger').click(function(){
-    $('.menu-bar').toggle();
+    $('.nav__bar').toggle();
 });
