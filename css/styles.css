@@ -36,6 +36,7 @@ font-family: 'Kaushan Script', cursive;*/
 
 .section--bgimg-eagle {
     background-image: linear-gradient(to bottom, rgba(234, 131, 132, 0.9) 0%, rgba(241, 217, 139, 0.9) 100%), url(../img/banner-eagle.png);
+    height: 100vh;
 }
 
 .section--bgimg-hills {
@@ -470,7 +471,7 @@ font-family: 'Kaushan Script', cursive;*/
 .hamburger {
     display: none;
     position: fixed;
-        top: 3%;
+    top: 3%;
     left: 80%;
     transform: translateX(-50%);
     width: 45px;
@@ -1361,6 +1362,8 @@ font-family: 'Kaushan Script', cursive;*/
     }
     .gallery {
         flex-flow: column nowrap;
+        -ms-align-items: center;
+        align-items: center;
     }
     .gallery__item {
         width: 100%;
