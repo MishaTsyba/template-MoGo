@@ -76,7 +76,7 @@ font-family: 'Kaushan Script', cursive;*/
     line-height: 1;
     text-align: center;
     text-transform: uppercase;
-    padding-top: 0.5%;
+    padding-top: 0.6%;
 }
 
 .title__line {
@@ -117,14 +117,13 @@ font-family: 'Kaushan Script', cursive;*/
 .title__top--large {
     color: #ffffff;
     font-size: 4.5em;
-    padding-top: 12%;
+    padding-top: 12vh;
 }
 
 .title__main--large {
     color: #ffffff;
     font-size: 3.3em;
     font-weight: 900;
-    padding-top: 0;
     margin: 0 auto;
 }
 
@@ -136,7 +135,7 @@ font-family: 'Kaushan Script', cursive;*/
 
 .title__line--white {
     border-bottom: 3px solid #ffffff;
-    padding-top: 2.5%;
+    padding-top: 5vh;
 }
 
 .title__description--bordered {
@@ -145,7 +144,7 @@ font-family: 'Kaushan Script', cursive;*/
     font-weight: 700;
     width: 160px;
     height: 40px;
-    margin-top: 4.5%;
+    margin-top: 5vh;
     padding-top: 7px;
     border: 3px solid #ffffff;
     box-sizing: border-box;
@@ -427,7 +426,7 @@ font-family: 'Kaushan Script', cursive;*/
 }
 
 
-/*social icons sprite*/
+/*enf of gallery social icons sprite*/
 
 
 /*++++++++++++++++++++++++
@@ -440,6 +439,7 @@ font-family: 'Kaushan Script', cursive;*/
 .header {
     max-width: 1200px;
     width: 100%;
+    height: 100vh;
     margin: 0 auto;
     position: relative;
 }
@@ -563,7 +563,7 @@ font-family: 'Kaushan Script', cursive;*/
     color: #ffffff;
     text-transform: uppercase;
     font-weight: 400;
-    margin-top: 12%;
+    margin-top: 10vh;
 }
 
 .slider__bar {
@@ -1118,7 +1118,7 @@ font-family: 'Kaushan Script', cursive;*/
 }
 
 
-/*social icons sprite*/
+/*end of social icons sprite*/
 
 .subscribe__input,
 .subscribe__submit {
@@ -1276,7 +1276,34 @@ font-family: 'Kaushan Script', cursive;*/
     color: #f38181;
 }
 
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    .title__top--large {
+        font-size: 2.2em;
+        padding-top: 5%;
+    }
+
+    .title__main--large {
+        font-size: 2.2em;
+    }
+
+    .title__line--white {
+        padding-top: 0.5%;
+    }
+
+    .title__description--bordered {
+        margin-top: 2.5%;
+    }
+}
+
 @media (min-width: 768px) and (max-width: 991px) {
+
+    .title__top--large {
+        color: #ffffff;
+        font-size: 2.5em;
+        padding-top: 2%;
+    }
+
     .title__main--large {
         font-size: 3em;
     }
@@ -1318,7 +1345,7 @@ font-family: 'Kaushan Script', cursive;*/
         font-size: 1.5em;
     }
     .hamburger {
-        display: block;
+        display: none;
         z-index: 5;
     }
     .nav__bar {
