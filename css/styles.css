@@ -117,7 +117,7 @@ font-family: 'Kaushan Script', cursive;*/
 .title__top--large {
     color: #ffffff;
     font-size: 4.5em;
-    padding-top: 12vh;
+    padding-top: 10vh;
 }
 
 .title__main--large {
@@ -563,7 +563,7 @@ font-family: 'Kaushan Script', cursive;*/
     color: #ffffff;
     text-transform: uppercase;
     font-weight: 400;
-    margin-top: 10vh;
+    margin-top: 9vh;
 }
 
 .slider__bar {
