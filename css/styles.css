@@ -35,8 +35,9 @@ font-family: 'Kaushan Script', cursive;*/
 }
 
 .section--bgimg-eagle {
+    -webkit-background-size: cover;
+    background-size: cover;
     background-image: linear-gradient(to bottom, rgba(234, 131, 132, 0.9) 0%, rgba(241, 217, 139, 0.9) 100%), url(../img/banner-eagle.png);
-    height: 100vh;
 }
 
 .section--bgimg-hills {
@@ -116,13 +117,13 @@ font-family: 'Kaushan Script', cursive;*/
 
 .title__top--large {
     color: #ffffff;
-    font-size: 4.5em;
-    padding-top: 10vh;
+    font-size: 3.5em;
+    padding-top: 15vh;
 }
 
 .title__main--large {
     color: #ffffff;
-    font-size: 3.3em;
+    font-size: 2.5em;
     font-weight: 900;
     margin: 0 auto;
 }
@@ -445,6 +446,19 @@ font-family: 'Kaushan Script', cursive;*/
     position: relative;
 }
 
+.header__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: space-around;
+}
+
 .header__logo {
     position: absolute;
     top: 30px;
@@ -564,7 +578,12 @@ font-family: 'Kaushan Script', cursive;*/
     color: #ffffff;
     text-transform: uppercase;
     font-weight: 400;
-    margin-top: 8vh;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    
 }
 
 .slider__bar {
@@ -1285,9 +1304,9 @@ font-family: 'Kaushan Script', cursive;*/
         padding-top: 2%;
     }
 
-    .title__main--large {
+    /*.title__main--large {
         font-size: 3em;
-    }
+    }*/
     .quotes__phrase {
         font-size: 0.7em;
     }
@@ -1319,12 +1338,12 @@ font-family: 'Kaushan Script', cursive;*/
     .header__logo {
         top: 5px;
     }
-    .title__main--large {
+    /*.title__main--large {
         font-size: 1.7em;
-    }
-    .title__top--large {
+    }*/
+    /*.title__top--large {
         font-size: 1.5em;
-    }
+    }*/
     .hamburger {
         display: none;
         z-index: 5;
@@ -1411,7 +1430,7 @@ font-family: 'Kaushan Script', cursive;*/
         display: none;
     }
     .services__title {
-        font-size: 0.8em;
+        font-size: 0.7em;
     }
     .service {
         flex-flow: column nowrap;
