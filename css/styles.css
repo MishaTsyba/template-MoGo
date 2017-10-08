@@ -441,7 +441,7 @@ font-family: 'Kaushan Script', cursive;*/
     max-width: 1200px;
     width: 100%;
     height: 100vh;
-    min-height: 650px;
+    /*min-height: 650px;*/
     margin: 0 auto;
     position: relative;
 }
@@ -580,8 +580,8 @@ font-family: 'Kaushan Script', cursive;*/
     font-weight: 400;
     position: absolute;
     bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
+    /*left: 50%;
+    transform: translateX(-50%);*/
     width: 100%;
     
 }
@@ -1296,17 +1296,25 @@ font-family: 'Kaushan Script', cursive;*/
     color: #f38181;
 }
 
+
+@media (min-width: 992px) {
+    .header {    
+    min-height: 650px;    
+}
+
+}
+
 @media (min-width: 768px) and (max-width: 991px) {
 
     .title__top--large {
         color: #ffffff;
-        font-size: 2.5em;
-        padding-top: 2%;
+        font-size: 2em;
     }
 
-    /*.title__main--large {
-        font-size: 3em;
-    }*/
+    .title__main--large {
+        font-size: 2em;
+        padding-top: 0;
+    }
     .quotes__phrase {
         font-size: 0.7em;
     }
@@ -1338,12 +1346,13 @@ font-family: 'Kaushan Script', cursive;*/
     .header__logo {
         top: 5px;
     }
-    /*.title__main--large {
-        font-size: 1.7em;
-    }*/
-    /*.title__top--large {
-        font-size: 1.5em;
-    }*/
+    .title__main--large {
+        font-size: 2em;
+    }
+
+    .title__top--large {
+        font-size: 2em;
+    }
     .hamburger {
         display: none;
         z-index: 5;
@@ -1481,11 +1490,11 @@ font-family: 'Kaushan Script', cursive;*/
     .nav__link:hover, .nav__button:hover {
         border-bottom: 0;
     }
-    .title__main--large {
-        font-size: 1.7em;
-    }
     .title__top--large {
-        font-size: 1.5em;
+        font-size: 2em;
+    }
+    .title__main--large {
+        font-size: 1.9em;
     }
     .slider__text--large {
         font-size: 0.8em;
