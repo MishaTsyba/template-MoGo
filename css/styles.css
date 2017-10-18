@@ -118,7 +118,7 @@ font-family: 'Kaushan Script', cursive;*/
 .title__top--large {
     color: #ffffff;
     font-size: 3.5em;
-    padding-top: 15vh;
+    /*padding-top: 15vh;*/
 }
 
 .title__main--large {
@@ -447,6 +447,11 @@ font-family: 'Kaushan Script', cursive;*/
 }
 
 .header__content {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -458,6 +463,14 @@ font-family: 'Kaushan Script', cursive;*/
         -ms-flex-pack: center;
             justify-content: space-around;
 }
+
+/* .header__title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transition: translateX(-50%);
+    transition: translateY(-50%);
+} */
 
 .header__logo {
     position: absolute;
@@ -1302,22 +1315,22 @@ font-family: 'Kaushan Script', cursive;*/
 
 @media (min-width: 1440px) {
     .title__top--large {
-        font-size: 2.2vw;
+        font-size: 3.5em;
     }
 
     .title__main--large {
-        font-size: 4vw;
+        font-size: 2.7em;
         padding-top: 0;
     }    
 }
 
 @media (min-width: 1366px) and (max-width: 1439px) {
     .title__top--large {
-        font-size: 2.3vw;
+        font-size: 3.5em;
     }
 
     .title__main--large {
-        font-size: 4vw;
+        font-size: 2.5em;
         padding-top: 0;
     }
         
@@ -1326,11 +1339,11 @@ font-family: 'Kaushan Script', cursive;*/
 
 @media (min-width: 1200px) and (max-width: 1365px) {
     .title__top--large {
-        font-size: 2.5vw;
+        font-size: 3.5em;
     }
 
     .title__main--large {
-        font-size: 4vw;
+        font-size: 2.5em;
         padding-top: 0;
     }
       
@@ -1338,25 +1351,25 @@ font-family: 'Kaushan Script', cursive;*/
 
 @media (min-width: 992px) and (max-width: 1199px) {
     .title__top--large {
-        font-size: 3.5vw;
+        font-size: 3.4em;
     }
 
     .title__main--large {
-        font-size: 5vw;
+        font-size: 2.3em;
         padding-top: 0;
-    }    
+    }   
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
 
     .title__top--large {
-        font-size: 3.7vw;
+        font-size: 3em;
     }
 
     .title__main--large {
-        font-size: 5.7vw;
+        font-size: 2.2em;
         padding-top: 0;
-    }
+    } 
 
     .title__description--bordered {
         
@@ -1393,10 +1406,10 @@ font-family: 'Kaushan Script', cursive;*/
         top: 5px;
     }
     .title__top--large {
-        font-size: 5vw;
+        font-size: 3em;
     }
     .title__main--large {
-        font-size: 8vw;
+        font-size: 2.2em;
     }
 
     .hamburger {
@@ -1544,10 +1557,10 @@ font-family: 'Kaushan Script', cursive;*/
         border-bottom: 0;
     }
     .title__top--large {
-        font-size: 8vw;
+        font-size: 2.7em;
     }
     .title__main--large {
-        font-size: 12vw;
+        font-size: 2em;
     }
     .slider__text--large {
         font-size: 0.8em;
