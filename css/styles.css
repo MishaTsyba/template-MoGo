@@ -1588,6 +1588,15 @@ font-family: 'Kaushan Script', cursive;*/
     .quotes__author, .gallery__name {
         font-size: 0.8em;
     }
+    .clients__quote {
+        margin: 0;
+        width: 100%;
+        text-align: center;
+        overflow: hidden;
+    }
+    .clients__photo {
+        display: none;
+    }
 }
 
 
