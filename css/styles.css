@@ -1221,7 +1221,7 @@ font-family: 'Kaushan Script', cursive;*/
 }
 
 .blogs__photo {
-    width: 42%;
+    /* width: 42%; */
 }
 
 .blogs__image {
@@ -1268,11 +1268,11 @@ font-family: 'Kaushan Script', cursive;*/
 .instagram__item {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .instagram__photo {
-    width: 33%;
+    /* width: 33%; */
     padding: 1px;
 }
 
@@ -1454,13 +1454,13 @@ font-family: 'Kaushan Script', cursive;*/
     .slider__text {
         font-size: 0.8em;
     }
-    .quotes__img,
-    .clients__photo {
+    .quotes__img {
         display: none;
     }
     .clients__quote {
         margin: 0;
-        width: 100%;
+        /* width: 100%; */
+        text-align: center;
     }
     .gallery {
         flex-flow: column nowrap;
@@ -1468,7 +1468,7 @@ font-family: 'Kaushan Script', cursive;*/
         align-items: center;
     }
     .gallery__item {
-        width: 100%;
+        width: 53%;
         padding: 15px 0;
     }
     .gallery__item--main {
@@ -1548,6 +1548,14 @@ font-family: 'Kaushan Script', cursive;*/
     .blogs,
     .instagram {
         border-top: 1px solid #e5e5e5;
+    }
+    .instagram__title, .instagram__message, .blogs__title {
+        text-align: center;
+        font-size: 1.2em;
+        padding: 5px;
+    }
+    .blogs__item {
+        padding-top: 15px;
     }
 }
 
